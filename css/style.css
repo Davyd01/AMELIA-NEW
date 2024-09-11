@@ -3,6 +3,10 @@
 /* font-family: "Montserrat", sans-serif;
   font-weight: 500; */
 
+html,body {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -142,6 +146,7 @@ body {
 .promoution {
   background: #81A36B;
   padding: 80px 0;
+  margin-bottom: 120px;
 }
 .promoution-box {
   display: flex;
@@ -155,6 +160,86 @@ body {
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+
+
+
+
+
+.work {
+  margin-bottom: 120px;
+}
+.flex-work {
+  display: flex;
+  align-items: center;
+}
+.work-foto {
+  margin-right: 30px;
+  width: 539px;
+  height: 560px;
+  
+}
+
+.work-foto img {
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.work-description h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  
+}
+
+.work-description p {
+  text-align-last: left;
+  line-height: 164.063%;
+  
+}
+
+
+
+
+
+
+.cards {
+  margin-bottom: 120px;
+}
+.cards-flex {
+  display: flex;
+  /* margin: 15px 15px 93px 15px; */
+  /* background: #81A36B; */
+  justify-content: space-between;
+  
+}
+.card {
+  background: #81A36B;
+  padding: 15px 15px 40px 15px;  
+}
+.card-content {
+}
+
+
+.card-content p {
+  text-align: center;
+  margin-top: 23px;
+}
+.card-foto {
+  width: 320px;
+  height: 402px;
+  
+}
+
+.card-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
@@ -197,4 +282,12 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+
+.footer-social ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
 }
