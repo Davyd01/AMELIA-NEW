@@ -1,1 +1,71 @@
 @import url('reset.css');
+
+/* font-family: "Montserrat", sans-serif;
+  font-weight: 500; */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #161616;
+    font-size: 18px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.promoution {
+  background: #81A36B;
+  padding: 80px 0;
+}
+.promoution-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+.footer {
+  background: #81A36B;
+  padding: 60px 0;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.flex-container h3 {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 40px;
+  
+}
+
+.footer-contacts a {
+  color: #161616;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-contacts ul > li + li {
+  margin-top: 20px;
+}
+
+.footer-year {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
